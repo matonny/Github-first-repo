@@ -241,11 +241,14 @@ a, p, h1, h2, h3 {
 .latest__container{
 	display: flex;
 	flex-direction: row;
+	justify-content: space-between;
 }
-.latest__features__link{
+.latest__container__features__link{
 	display: flex;
+	background-color: black;
+	
 }
-.latest__features{
+.latest__container__features{
 	max-width: 400px;
 }
 .latest__container__ipad{
