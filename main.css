@@ -242,7 +242,7 @@ a, p, h1, h2, h3 {
 	color:#777777;
 }
 .latest__container{
-	background-image: url('images/iPad.png');
+	background-image: url('images/iPad.PNG');
 	background-repeat: no-repeat;
 	background-size: 50% 100%;
 	background-position: 100% 50%;
