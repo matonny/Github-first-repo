@@ -401,7 +401,7 @@ a, p, h1, h2, h3 {
 	display: flex;
 	flex-direction: column;
 	max-width: 1000px;
-	margin: 0 auto;
+	margin: 0 auto 75px;
 }
 .clients__container__above, .clients__container__lower{
 	display: flex;
@@ -413,6 +413,12 @@ a, p, h1, h2, h3 {
 	border-radius: 50%;
 	background-color: #f9f9f9;
 }
+.clients__container__above__circle{
+	background-image: url('images/man.jpg');
+}
+.clients__container__lower__circle{
+	background-image: url('images/woman.jpg');
+}
 .clients__container__above__message, .clients__container__lower__message{
 	width:640px;
 	height: 180px;
@@ -421,8 +427,8 @@ a, p, h1, h2, h3 {
 	display: flex;
 	flex-direction: column;
 }
-.clients__container__above__message__text{
-	margin: 40px auto;
+.clients__container__above__message__text, .clients__container__lower__message__text{
+	margin: 40px auto 0;
 	max-width: 600px;
 	font-family: 'Roboto Slab', serif;
 	font-weight: 300px;
@@ -430,4 +436,39 @@ a, p, h1, h2, h3 {
 	line-height: 28px;
 	color:#777777;
 	text-align: center;
+}
+.clients__container__above__message::before{
+	width: 0;
+	height: 0;
+	border-top: 5px solid transparent;
+	border-right: 10px solid #f9f9f9;
+	border-bottom: 5px solid transparent;
+	position: absolute;
+	content: '';
+	margin-left:-10px;
+	margin-top:85px;
+}
+.clients__container__lower__message::after{
+	content: '';
+	width: 0;
+	height: 0;
+	border-top: 5px solid transparent;
+	border-left: 10px solid #f9f9f9;
+	border-bottom: 5px solid transparent;
+	position: absolute;
+	margin-left:640px;
+	margin-top:85px;	
+}
+.clients__container__above__message__signature, .clients__container__lower__message__signature{
+	font-size: 18px;
+	line-height: 36px;
+	color:#7cc576;
+	font-family: 'Roboto Slab', serif;
+	margin: 0;
+}
+.clients__container__above__message__signature{
+	margin-left: 80px;
+}
+.clients__container__lower__message__signature{
+	margin-left: 140px;
 }
