@@ -657,31 +657,31 @@ a, p, h1, h2, h3 {
 	margin:0px 5px;
 }
 .bottomfooter__container__socials__twitter{
-	background-image: url('images/twitter.png');
+	background-image: url('images/Twitter.png');
 	transition: 0.2s;
 }
 .bottomfooter__container__socials__twitter:hover{
-	background-image: url('images/twitter2.png');
+	background-image: url('images/Twitter2.png');
 }
 .bottomfooter__container__socials__facebook{
-	background-image: url('images/facebook.png');
+	background-image: url('images/Facebook.png');
 	transition: 0.2s;	
 }
 .bottomfooter__container__socials__facebook:hover{
-	background-image: url('images/facebook2.png');
+	background-image: url('images/Facebook2.png');
 }
 .bottomfooter__container__socials__pinterest{
 	transition: 0.2s;
-	background-image: url('images/pinterest.png');
+	background-image: url('images/Pinterest.png');
 }
 .bottomfooter__container__socials__pinterest:hover{
-	background-image: url('images/pinterest2.png');
+	background-image: url('images/Pinterest2.png');
 		
 }
 .bottomfooter__container__socials__google{
-	background-image: url('images/google.png');
+	background-image: url('images/Google.png');
 	transition: 0.2s;	
 }
 .bottomfooter__container__socials__google:hover{
-	background-image: url('images/google2.png');
+	background-image: url('images/Google2.png');
 }
